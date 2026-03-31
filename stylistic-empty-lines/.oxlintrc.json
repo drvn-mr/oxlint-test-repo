@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "vue"
+  ],
+  "jsPlugins": [
+    "@stylistic/eslint-plugin"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "@stylistic/no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 1,
+        "maxBOF": 0,
+        "maxEOF": 0
+      }
+    ]
+  }
+}
